@@ -161,3 +161,24 @@ Now clean up and remove these three folders
 ```bash
 rm -rf code-alongs explorations theory 
 ```
+
+## What we went through in lecture
+1. Create folder with name folder1
+2. Create two txt files inside folder1
+3. Navigate out of folder
+4. Create folder with name folder2
+5. Move files in folder1 to folder2
+6. Delete folder1
+
+OPTIONAL
+1. Use nano to alter text inside the txt files.
+
+ADVANCED
+1. Create folder with name adv1
+2. Create .sh folder with “touch myscript.sh”
+3. Write code in the script with “nano myscript.sh”
+4. Test the following:
+	- hello world
+	- creating files
+	- The basic tasks above
+5. Save the file and run it with “bash myscript.sh”
