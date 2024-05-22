@@ -15,7 +15,7 @@ The schedule is divided into two parts: pre-summer and post-summer, where the fi
 |   Week   | Content                                                                                                                   |
 | :------: | ------------------------------------------------------------------------------------------------------------------------- |
 | [21][w1] | course intro, why data engineering, data pipelines intro, data platform/modern data stack, ETL & ELT, Linux, containers, docker intro|
-| [22][w2] | data engineering lifecycle, code review and Git Crashcourse, ETL & ELT, Serverless, Airflow intro|
+| [22][w2] | data engineering lifecycle, code review and Git Crashcourse, Serverless, Airflow intro|
 | [23][w3] | Triggers, TaskGroup, orchestrate data pipeline, circle back to data architectures|
 | [33][w4] | repetition, agile theory, CI/CD, git build + pre-commit + code tests|
 | [34][w5] | data version control (DVC), DBT, postgres database|
