@@ -1,4 +1,5 @@
 ## Docker Compose Task
+THIS IS A HARD TASK
 For this task you will use docker compose.
 The python file downloads a csv and populates the target which is a postgres db
 Use the database credentials "postgresql://user:password@db:5432/mydatabase"
@@ -6,17 +7,12 @@ Also, in your dockerfile use the following command as the code uses uvicorn
 ```BASH
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
-
 ### For this task create the following services:
     - A dockerfile for python that creates an image that exposes the service on port 8000
     - A postgres server on postgres:alpine
 
-
-
-
-
-
-
+### Hint
+Look at the slides and how docker-compose.yml looks like there to see how a postgresql and frontend app is created.
 
 
 
