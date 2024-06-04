@@ -4,3 +4,5 @@ lectures/Theories
 venv
 .env
 !.env.example
+__pycache__
+lectures/code/Lecture5/example/logs
