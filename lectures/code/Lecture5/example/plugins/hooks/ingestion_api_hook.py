@@ -8,7 +8,14 @@ class IngestionApiHook(HttpHook):
     def run(self, endpoint, data=None, headers=None):
         self.method = self.method.upper()
         if self.method == 'POST' and data:
-            response = super().run(endpoint, data=json.dumps(data), headers=headers)
+            response = super().run(
+                endpoint,
+                data=json.dumps(data),
+                headers=headers
+                )
+            return response.json()
         else:
-            response = super().run(endpoint, headers=headers)
-        return response.json()
+            response = super().run(
+                endpoint,
+                headers=headers)
+            return response.json()
