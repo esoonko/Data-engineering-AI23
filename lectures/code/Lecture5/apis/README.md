@@ -21,7 +21,7 @@ Here are the codes for our data pipeline, data storage and data transformation w
 ```docker build -t ingestion ./src```
 3. Start the service through
 ```docker run --network=ai23network -p 8000:8000 ingestion```
-4. Run api requests through address http://localhost:8000/ingestion?ocation=LOCATION&date=DATE where LOCATION can be the location you want (STOCKHOLM) and Date should be in the format 2024-05-30
+4. Run api requests through address http://localhost:8000/ingestion?location=LOCATION&date=DATE where LOCATION can be the location you want (STOCKHOLM) and Date should be in the format 2024-05-30
 
 ### Data transformation layer
 1. Copy the SQL code from clean__weatherapp.sql and run it in adminer(http://localhost:8080)
