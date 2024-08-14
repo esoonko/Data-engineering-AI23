@@ -1,5 +1,5 @@
 venv
 weather_ml.ipynb
-.csv
-.pkl
-.ipynb_checkpoints
+*.csv
+*.pkl
+*.ipynb_checkpoints

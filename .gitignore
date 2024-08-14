@@ -7,5 +7,5 @@ venv
 __pycache__
 lectures/code/Lecture5/example/logs
 lectures/code/Lecture5/airflow/logs
-.csv
-.pkl
+*.csv
+*.pkl
