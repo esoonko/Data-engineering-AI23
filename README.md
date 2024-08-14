@@ -17,10 +17,10 @@ The schedule is divided into two parts: pre-summer and post-summer, where the fi
 | [21][w1] | course intro, why data engineering, data platform/modern data stack(data engineering lifecycle), Linux, containers, docker intro|
 | [22][w2] | code review and Git Crashcourse, data pipelines, data workflow|
 | [23][w3] | Airflow intro, DAGS, Triggers, TaskGroup, orchestrate data pipeline, circle back to data engineering lifecycle|
-| [33][w4] | Repetition, agile theory, CI/CD, git build + pre-commit + code tests|
-| [34][w5] | Data version control (DVC), DBT, postgres database|
-| [35][w6] | **project**, Intro to GCP and deploy a pipeline to GCP.|
-| [36][w7] | **project**, Ethics and data security|
+| [33][w4] | Repetition, agile theory. Introduction to project.|
+| [34][w5] | **project**, Intro to GCP. Deploy a pipeline to GCP. Write a pipeline code. code practice.|
+| [35][w6] | **project**, CI/CD, github actions, API requests + code tests, code practice.|
+| [36][w7] | **project**, Data version control (DVC), DBT, Ethics and data security|
 | [37][w8] | **project**, inspiration: spark, databricks, data lake, data factory, data pipeline on GCP. Example modern data stacks for inspiration|
 | [38][w9] | **project** Presentation and report.|
 
