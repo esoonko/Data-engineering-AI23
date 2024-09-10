@@ -1,0 +1,12 @@
+version: 2
+
+models:
+
+  - name: _stg_weather_stockholm_test
+    columns:
+      - name: temp_time
+        tests:
+          - unique
+          - not_null
+          - is_unique
+

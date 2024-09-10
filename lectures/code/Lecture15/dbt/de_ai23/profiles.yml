@@ -1,0 +1,12 @@
+de_ai23: # this needs to match the profile in your dbt_project.yml file
+    target: dev
+    outputs:
+        dev:
+            type: bigquery
+            method: oauth
+            project: de-ai23
+            dataset: de_ai23_project
+            threads: 1
+            timeout_seconds: 300
+            location: EU
+            priority: interactive

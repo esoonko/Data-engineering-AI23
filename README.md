@@ -20,8 +20,8 @@ The schedule is divided into two parts: pre-summer and post-summer, where the fi
 | [33][w4] | Repetition, agile theory. Introduction to project.|
 | [34][w5] | **project**, Intro to GCP. Deploy a pipeline to GCP. Write a pipeline code. code practice.|
 | [35][w6] | **project**, CI/CD, github actions, API requests + code tests, code practice.|
-| [36][w7] | **project**, Data version control (DVC), DBT, Ethics and data security|
-| [37][w8] | **project**, inspiration: spark, databricks, data lake, data factory, data pipeline on GCP. Example modern data stacks for inspiration|
+| [36][w7] | **project**, Data version control, Ethics and data security|
+| [37][w8] | **project**, inspiration: DBT. Group work time.|
 | [38][w9] | **project** Presentation and report.|
 
 Note that this schedule is an overview and will be updated during the course.
