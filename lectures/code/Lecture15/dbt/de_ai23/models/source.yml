@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: de_ai23_project
+    tables:
+      - name: _src_weather_stockholm
+        description: Source data for weather in stockholm with interval of 1h.
+        columns:
+          - name: modified_timestamp
+            description: Timestamp on when the data was modified at source
+          - name: ingestion_timestamp
+            description: Timestamp on when the data was ingestion from source
+          - name: data
+            description: data payload from source in the format of JSON.
